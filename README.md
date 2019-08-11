@@ -35,7 +35,7 @@ We are going to determine that feature selection improves the performance of sen
 
 | Models | Additional conditions |Accuracy (before features selection) | Accuracy (after features selection)|
 | --- | --- | --- | --- |
-| * **Logistic Regression** |---  | **0.884** |  |
+| **Logistic Regression** * |---  | **0.884** |**0.8881481481481481**  |
 | Logistic Regression |`chi2, k=45000`  | --- | 0.7644444444444445 |
 | Decision Tree |---  | 0.7094814814814815 | --- |
 | Random Forest | default | 0.7585185185185185 | --- |
