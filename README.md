@@ -47,7 +47,7 @@ We are going to determine that feature selection improves the performance of sen
 | Multinomial Gaussian Naive Bayes | --- | 0.8622222222222222 | 0.8622222222222222 |
 | Gaussian Naive Bayes | --- | 0.6687407407407407 | **0.6688888888888889** |
 
-## C
+## CONCLUSION
 
 * Sentiment classification methods above identify texts from the review dataset according to the users opinions toward movies, which are both negative and positive. The extracted data is further enhanced using feature classification techniques and these methopologies facilitate the keywords from the users reviews. After training and testing the dataset, **Logistic Regression** has the **best result** compared to the other methods.
 * We successfully **improve the accuracy** of our baseline models by **adding more stop words**.
