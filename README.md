@@ -33,15 +33,22 @@ We are going to determine that feature selection improves the performance of sen
 
 ### Models Performance Summary
 
+
 | Models | Additional conditions |Accuracy (before features selection) | Accuracy (after features selection)|
 | --- | --- | --- | --- |
-| **Logistic Regression** * |---  | **0.884** |**0.8881481481481481**  |
+| * **Logistic Regression** |---  | **0.884** |**0.8881481481481481**|
 | Logistic Regression |`chi2, k=45000`  | --- | 0.7644444444444445 |
-| Decision Tree |---  | 0.7094814814814815 | --- |
+| Decision Tree |---  | 0.7094814814814815 | **0.7197037037037037** |
 | Random Forest | default | 0.7585185185185185 | --- |
-| Random Forest | `n_estimators = 200` | 0.8428148148148148 | --- |
-| KNN | `k=71` | 0.8065185185185185 | --- |
-| SVM | `C=1` | 0.8814814814814815 | --- |
+| Random Forest | `n_estimators = 200` | 0.8428148148148148 | **0.8573333333333333** |
+| KNN | `k=71` | 0.8065185185185185 | **0.8139259259259259** |
+| SVM | `C=1` | 0.8814814814814815 | **0.8837037037037037** |
 | SVM | `C=3` | 0.8765925925925926 | --- |
-| Gaussian Naive Bayes | --- | 0.8622222222222222 | --- |
-| Multinomial Gaussian Naive Bayes | --- | 0.6687407407407407 | --- |
+| Multinomial Gaussian Naive Bayes | --- | 0.8622222222222222 | 0.8622222222222222 |
+| Gaussian Naive Bayes | --- | 0.6687407407407407 | **0.6688888888888889** |
+
+## C
+
+* Sentiment classification methods above identify texts from the review dataset according to the users opinions toward movies, which are both negative and positive. The extracted data is further enhanced using feature classification techniques and these methopologies facilitate the keywords from the users reviews. After training and testing the dataset, **Logistic Regression** has the **best result** compared to the other methods.
+* We successfully **improve the accuracy** of our baseline models by **adding more stop words**.
+
