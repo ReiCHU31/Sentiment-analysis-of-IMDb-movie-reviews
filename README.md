@@ -31,7 +31,7 @@ The labeled dataset consists of 50,000 IMDB movie reviews. No individual movie h
 
 We are going to determine that feature selection improves the performance of sentiment based classification, but it depends on the method adopted and the number of feature selected. The experimental results presented in this project show that Logistic Regression performs better than other techniques for sentiment based classification.
 
-### Models Performance Summary
+## Models Performance Summary
 
 
 | Models | Additional conditions |Accuracy (before features selection) | Accuracy (after features selection)|
