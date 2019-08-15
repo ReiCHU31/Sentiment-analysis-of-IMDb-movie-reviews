@@ -3,6 +3,8 @@
 
 ## **Phuong T.M. Chu, Lan Nguyen and Tu Nguyen**
 
+**Sentiment analysis of IMDb movie reviews** is the project that we finished after the 4th week of studying **Machine Learning**.
+
 ![](https://i.imgur.com/NjCp49S.png)
 
 ## INTRODUCTION:
